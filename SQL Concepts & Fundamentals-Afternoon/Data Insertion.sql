@@ -134,3 +134,23 @@ insert into order_product values("OR21", "P05", 12);
 insert into order_product values("OR21", "P06", 20);
 
 insert into order_product values("OR22", "P03", 20);
+
+
+-- Sales executive category --
+insert into se_pro_category values("SE01", "C01");
+insert into se_pro_category values("SE02", "C01");
+insert into se_pro_category values("SE03", "C01");
+insert into se_pro_category values("SE04", "C01");
+insert into se_pro_category values("SE05", "C01");
+
+insert into se_pro_category values("SE01", "C02");
+insert into se_pro_category values("SE02", "C02");
+insert into se_pro_category values("SE03", "C02");
+insert into se_pro_category values("SE04", "C02");
+insert into se_pro_category values("SE05", "C02");
+
+insert into se_pro_category values("SE01", "C03");
+insert into se_pro_category values("SE02", "C03");
+insert into se_pro_category values("SE03", "C03");
+insert into se_pro_category values("SE04", "C03");
+insert into se_pro_category values("SE05", "C03");

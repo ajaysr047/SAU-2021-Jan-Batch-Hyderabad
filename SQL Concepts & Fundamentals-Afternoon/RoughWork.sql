@@ -9,9 +9,28 @@ create table product (p_code varchar(5) primary key, p_name varchar(20), unit_pr
 create table orderT (or_id varchar(10) primary key, cus_id varchar(10), se_id varchar(10), purchase_date date not null, foreign key(cus_id) references customer(cus_id), foreign key(se_id) references salesEx(se_id));
 create table order_product(or_id varchar(10), p_code varchar(5), units int not null, primary key(or_id, p_code));
 
-select * from order_product;
+create table se_pro_category(se_id varchar(10), ctgy_code varchar(5), primary key(se_id, ctgy_code), foreign key(se_id) references salesEx(se_id), foreign key(ctgy_code) references category(ctgy_code));
+
 					-- Data Insertion -- 
-                    
+-- Sales executive category --
+insert into se_pro_category values("SE01", "C01");
+insert into se_pro_category values("SE02", "C01");
+insert into se_pro_category values("SE03", "C01");
+insert into se_pro_category values("SE04", "C01");
+insert into se_pro_category values("SE05", "C01");
+
+insert into se_pro_category values("SE01", "C02");
+insert into se_pro_category values("SE02", "C02");
+insert into se_pro_category values("SE03", "C02");
+insert into se_pro_category values("SE04", "C02");
+insert into se_pro_category values("SE05", "C02");
+
+insert into se_pro_category values("SE01", "C03");
+insert into se_pro_category values("SE02", "C03");
+insert into se_pro_category values("SE03", "C03");
+insert into se_pro_category values("SE04", "C03");
+insert into se_pro_category values("SE05", "C03");
+
 -- Location data -- 
 
 insert into location values("L01", "Chennai");

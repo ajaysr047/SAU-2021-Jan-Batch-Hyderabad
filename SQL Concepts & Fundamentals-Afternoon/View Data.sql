@@ -6,3 +6,4 @@ select * from salesEx;
 select * from products;
 select * from orderT;
 select * from order_product;
+select * from se_pro_category;

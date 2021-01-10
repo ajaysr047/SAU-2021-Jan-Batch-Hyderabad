@@ -8,3 +8,4 @@ create table product (p_code varchar(5) primary key, p_name varchar(20), unit_pr
 
 create table orderT (or_id varchar(10) primary key, cus_id varchar(10), se_id varchar(10), purchase_date date not null, foreign key(cus_id) references customer(cus_id), foreign key(se_id) references salesEx(se_id));
 create table order_product(or_id varchar(10), p_code varchar(5), units int not null, primary key(or_id, p_code));
+create table se_pro_category(se_id varchar(10), ctgy_code varchar(5), primary key(se_id, ctgy_code), foreign key(se_id) references salesEx(se_id), foreign key(ctgy_code) references category(ctgy_code));
