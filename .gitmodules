@@ -1,3 +1,6 @@
 [submodule "Angular 1 & 2 - Morning & Afternoon/firstApp"]
 	path = Angular 1 & 2 - Morning & Afternoon/firstApp
 	url = https://github.com/ajaysr047/firstApp.git
+[submodule "React Native 1 & 2 - Morning & Afternoon/tmdbApp"]
+	path = React Native 1 & 2 - Morning & Afternoon/tmdbApp
+	url = https://github.com/ajaysr047/tmdbApp-React_Native.git
