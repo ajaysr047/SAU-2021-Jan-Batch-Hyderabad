@@ -4,3 +4,6 @@
 [submodule "React Native 1 & 2 - Morning & Afternoon/tmdbApp"]
 	path = React Native 1 & 2 - Morning & Afternoon/tmdbApp
 	url = https://github.com/ajaysr047/tmdbApp-React_Native.git
+[submodule "React sessions 1 & 2 - Morning & Afternoon/apiTableDemo"]
+	path = React sessions 1 & 2 - Morning & Afternoon/apiTableDemo
+	url = https://github.com/ajaysr047/react_api_table_demo.git
