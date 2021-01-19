@@ -1,0 +1,22 @@
+<Assignments>
+    <Assignment>
+        <Id>1</Id>
+        <Name>Advanced Java</Name>
+        <Language>Java</Language>
+        <Status>Completed</Status>
+    </Assignment>
+
+    <Assignment>
+        <Id>2</Id>
+        <Name>C++ Fundamentals</Name>
+        <Language>C++</Language>
+        <Status>Pending</Status>
+    </Assignment>
+
+    <Assignment>
+        <Id>3</Id>
+        <Name>Angular</Name>
+        <Language>TypeScript</Language>
+        <Status>Completed</Status>
+    </Assignment>
+</Assignments>
