@@ -1,0 +1,2 @@
+127.0.0.1 - - [21/Jan/2021:21:48:21 +0530] "GET /webAppDemo/demo HTTP/1.1" 200 41 http-bio-9080-exec-1 48
+127.0.0.1 - - [21/Jan/2021:21:48:45 +0530] "GET /webAppDemo/ HTTP/1.1" 200 52 http-bio-9080-exec-2 557
