@@ -10,7 +10,7 @@ public class DemoServlet extends HttpServlet {
     protected void doGet(HttpServletRequest reqest, HttpServletResponse response) 
             throws ServletException, IOException {
         response.setContentType("text/html");  
-        response.getWriter().println("<h1>Demo Servet WebApp<h1><h3> Ajay</h3>");
+        response.getWriter().println("<h1>Demo Servlet WebApp<h1><h3> Ajay</h3>");
     }
     @Override
     public void init() throws ServletException {
