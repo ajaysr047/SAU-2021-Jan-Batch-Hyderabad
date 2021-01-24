@@ -23,7 +23,7 @@
         </property>
 
         <property name = "hibernate.connection.password">
-            Sudala!7
+            pass123
         </property>
 
 <!--        JDBC Connection pool-->
